@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Customized{% endblock title %}
+
+{% block body %}
+    <style>
+        body {
+            background-image: url('/static/10.avif'); /* Add your background image URL here */
+            background-size: cover; /* Cover the entire body */
+            background-position: center top -140px; /* Center the background image vertically and position it at the top */
+            color: #333; /* Text color */
+            /* Optionally, you can also set background-repeat to prevent the image from repeating */
+            background-repeat: no-repeat;
+        }
+        /* Optionally, you can style the container div as well */
+        .container {
+            /* Add any additional styling for the container if needed */
+        }
+    </style>
+
+    <div class="container">
+        <!-- Your page content goes here -->
+    </div>
+{% endblock body %}

@@ -48,7 +48,7 @@ def contact(request):
             f'Contact Form Submission: {subject}',
             f'Name: {name}\nEmail: {email}\nMessage: {message}\nProjects: {projects}\nExperience: {experience}',
             email,  # Use the user-provided email address as the sender's email address
-            ['kingstar09122001@gmail.com'],  # Receiver's email address
+            ['calmaert@gmail.com'],  # Receiver's email address
             fail_silently=False,
         )
 
